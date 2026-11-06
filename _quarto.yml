@@ -3,18 +3,16 @@ project:
   output-dir: _site
   render:
     - index.qmd
-    - project-02.qmd
-    - project-03.qmd
-    - project-04.qmd
-    - project-05.qmd
-    - project-06.qmd
+    - events.qmd
+    - cait.qmd
+    - micro-grant-projects.qmd
   resources:
     - assets/
     - .nojekyll
 
 website:
-  title: "Our projects"
-  description: "Meet the people behind our projects and explore their work."
+  title: "ML Teacher Community"
+  description: "Explore the Machine Learning Teacher Community, events, CAIT, and micro-grant projects."
   search: false
   sidebar:
     style: docked
@@ -23,15 +21,17 @@ website:
     border: false
     pinned: true
     contents:
-      - index.qmd
-      - project-02.qmd
-      - project-03.qmd
-      - project-04.qmd
-      - project-05.qmd
-      - project-06.qmd
-    footer: "Six projects.<br>People, ideas, and impact."
+      - text: "About us"
+        href: index.qmd
+      - text: "Events"
+        href: events.qmd
+      - text: "CAIT"
+        href: cait.qmd
+      - text: "Micro-grant projects"
+        href: micro-grant-projects.qmd
+    footer: "People, ideas, and impact."
   page-footer:
-    left: "Our projects"
+    left: "ML Teacher Community"
     right: "People, ideas, and impact."
 
 format:
@@ -50,3 +50,4 @@ format:
       gutter-width: 2.5rem
 
 editor: visual
+

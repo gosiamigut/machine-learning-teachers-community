@@ -1,0 +1,354 @@
+---
+title: "Micro-grant projects"
+description: "Explore the six micro-grant projects and meet their project leads."
+---
+
+::: {.project-kicker}
+Our projects
+:::
+
+# {{< meta title >}} {#micro-grant-projects}
+
+::: {.project-intro}
+Explore our six micro-grant projects and meet the people leading them.
+:::
+
+:::::: {.grant-project}
+
+::: {.project-kicker}
+Project 01 / 06
+:::
+
+## Project 01 {.grant-title #project-01}
+
+::: {.project-intro}
+Add one sentence that captures the purpose of this project.
+:::
+
+::::: {.project-layout}
+
+:::: {.lead-profile}
+
+![](assets/lead-01.svg){.lead-photo fig-alt="Placeholder for the photograph of project 01's lead"}
+
+::: {.lead-label}
+Project lead
+:::
+
+::: {.lead-name}
+Project lead's name
+:::
+
+::: {.lead-affiliation}
+Department or organisation
+:::
+
+::::
+
+:::: {.project-description}
+
+### About the project {.description-title #project-01-about}
+
+Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+
+Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+
+#### What we aim to achieve {#project-01-goals}
+
+- Add the first goal or intended outcome.
+- Add the second goal or intended outcome.
+- Add the third goal or intended outcome.
+
+#### Find out more {#project-01-more}
+
+Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+
+::::
+
+:::::
+
+::::::
+
+:::::: {.grant-project}
+
+::: {.project-kicker}
+Project 02 / 06
+:::
+
+## Project 02 {.grant-title #project-02}
+
+::: {.project-intro}
+Add one sentence that captures the purpose of this project.
+:::
+
+::::: {.project-layout}
+
+:::: {.lead-profile}
+
+![](assets/lead-02.svg){.lead-photo fig-alt="Placeholder for the photograph of project 02's lead"}
+
+::: {.lead-label}
+Project lead
+:::
+
+::: {.lead-name}
+Project lead's name
+:::
+
+::: {.lead-affiliation}
+Department or organisation
+:::
+
+::::
+
+:::: {.project-description}
+
+### About the project {.description-title #project-02-about}
+
+Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+
+Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+
+#### What we aim to achieve {#project-02-goals}
+
+- Add the first goal or intended outcome.
+- Add the second goal or intended outcome.
+- Add the third goal or intended outcome.
+
+#### Find out more {#project-02-more}
+
+Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+
+::::
+
+:::::
+
+::::::
+
+:::::: {.grant-project}
+
+::: {.project-kicker}
+Project 03 / 06
+:::
+
+## Project 03 {.grant-title #project-03}
+
+::: {.project-intro}
+Add one sentence that captures the purpose of this project.
+:::
+
+::::: {.project-layout}
+
+:::: {.lead-profile}
+
+![](assets/lead-03.svg){.lead-photo fig-alt="Placeholder for the photograph of project 03's lead"}
+
+::: {.lead-label}
+Project lead
+:::
+
+::: {.lead-name}
+Project lead's name
+:::
+
+::: {.lead-affiliation}
+Department or organisation
+:::
+
+::::
+
+:::: {.project-description}
+
+### About the project {.description-title #project-03-about}
+
+Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+
+Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+
+#### What we aim to achieve {#project-03-goals}
+
+- Add the first goal or intended outcome.
+- Add the second goal or intended outcome.
+- Add the third goal or intended outcome.
+
+#### Find out more {#project-03-more}
+
+Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+
+::::
+
+:::::
+
+::::::
+
+:::::: {.grant-project}
+
+::: {.project-kicker}
+Project 04 / 06
+:::
+
+## Project 04 {.grant-title #project-04}
+
+::: {.project-intro}
+Add one sentence that captures the purpose of this project.
+:::
+
+::::: {.project-layout}
+
+:::: {.lead-profile}
+
+![](assets/lead-04.svg){.lead-photo fig-alt="Placeholder for the photograph of project 04's lead"}
+
+::: {.lead-label}
+Project lead
+:::
+
+::: {.lead-name}
+Project lead's name
+:::
+
+::: {.lead-affiliation}
+Department or organisation
+:::
+
+::::
+
+:::: {.project-description}
+
+### About the project {.description-title #project-04-about}
+
+Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+
+Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+
+#### What we aim to achieve {#project-04-goals}
+
+- Add the first goal or intended outcome.
+- Add the second goal or intended outcome.
+- Add the third goal or intended outcome.
+
+#### Find out more {#project-04-more}
+
+Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+
+::::
+
+:::::
+
+::::::
+
+:::::: {.grant-project}
+
+::: {.project-kicker}
+Project 05 / 06
+:::
+
+## Project 05 {.grant-title #project-05}
+
+::: {.project-intro}
+Add one sentence that captures the purpose of this project.
+:::
+
+::::: {.project-layout}
+
+:::: {.lead-profile}
+
+![](assets/lead-05.svg){.lead-photo fig-alt="Placeholder for the photograph of project 05's lead"}
+
+::: {.lead-label}
+Project lead
+:::
+
+::: {.lead-name}
+Project lead's name
+:::
+
+::: {.lead-affiliation}
+Department or organisation
+:::
+
+::::
+
+:::: {.project-description}
+
+### About the project {.description-title #project-05-about}
+
+Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+
+Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+
+#### What we aim to achieve {#project-05-goals}
+
+- Add the first goal or intended outcome.
+- Add the second goal or intended outcome.
+- Add the third goal or intended outcome.
+
+#### Find out more {#project-05-more}
+
+Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+
+::::
+
+:::::
+
+::::::
+
+:::::: {.grant-project}
+
+::: {.project-kicker}
+Project 06 / 06
+:::
+
+## Project 06 {.grant-title #project-06}
+
+::: {.project-intro}
+Add one sentence that captures the purpose of this project.
+:::
+
+::::: {.project-layout}
+
+:::: {.lead-profile}
+
+![](assets/lead-06.svg){.lead-photo fig-alt="Placeholder for the photograph of project 06's lead"}
+
+::: {.lead-label}
+Project lead
+:::
+
+::: {.lead-name}
+Project lead's name
+:::
+
+::: {.lead-affiliation}
+Department or organisation
+:::
+
+::::
+
+:::: {.project-description}
+
+### About the project {.description-title #project-06-about}
+
+Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+
+Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+
+#### What we aim to achieve {#project-06-goals}
+
+- Add the first goal or intended outcome.
+- Add the second goal or intended outcome.
+- Add the third goal or intended outcome.
+
+#### Find out more {#project-06-more}
+
+Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+
+::::
+
+:::::
+
+::::::
+
+::: {.template-note}
+Template content · Project titles, portraits, lead details, and descriptions will be updated.
+:::

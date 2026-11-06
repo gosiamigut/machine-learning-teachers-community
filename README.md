@@ -1,43 +1,27 @@
-# Quarto project showcase
+# Machine Learning Teacher Community website
 
-A six-project website with a persistent left sidebar. Each project opens with a portrait of its lead on the left and a description on the right. On phones, the portrait appears above the description and Quarto provides a collapsible navigation menu.
+A Quarto website with four sidebar sections: **About us**, **Events**, **CAIT**, and **Micro-grant projects**. The micro-grant page shows all six projects one after another, each with a lead portrait on the left and description on the right. The layout stacks on small screens.
 
-All project names, portraits, and text are clearly marked placeholders. No real people or projects are represented.
+## Edit the website
 
-## Start here
+| Section | File |
+| --- | --- |
+| About us (homepage) | `index.qmd` |
+| Events | `events.qmd` |
+| CAIT | `cait.qmd` |
+| All six micro-grant projects | `micro-grant-projects.qmd` |
+| Navigation and site settings | `_quarto.yml` |
+| Styling | `styles.css` and `theme.scss` |
 
-1. Unzip this folder.
-2. Open the folder in VS Code. If using the Quarto extension, choose **Quarto: Preview** from the Command Palette while a `.qmd` file is open. Alternatively, run `quarto preview` in this folder.
-3. Replace the placeholder content using the table below.
-4. Publish using the GitHub Pages instructions below.
+The first three pages contain starter text. Replace it with your community information, events, and CAIT details.
 
-Quarto is needed for local preview; R and Python are not required by this website. The publishing workflow installs Quarto automatically on GitHub.
+In `micro-grant-projects.qmd`, each project has its own numbered section. Edit its title, introductory sentence, lead name, affiliation, and description. Keep the layout markers (`:::`) intact. The six original portrait placeholders are in `assets/lead-01.svg` through `assets/lead-06.svg`.
 
-## Edit your projects
+For a real portrait, put the photo in `assets`, update the corresponding image path (for example to `assets/lead-01.jpg`), and change its `fig-alt` to `Portrait of [name]`. Project links can point directly to `micro-grant-projects.html#project-01` through `#project-06`.
 
-| Project | Page to edit | Portrait placeholder |
-| --- | --- | --- |
-| 01 (homepage) | `index.qmd` | `assets/lead-01.svg` |
-| 02 | `project-02.qmd` | `assets/lead-02.svg` |
-| 03 | `project-03.qmd` | `assets/lead-03.svg` |
-| 04 | `project-04.qmd` | `assets/lead-04.svg` |
-| 05 | `project-05.qmd` | `assets/lead-05.svg` |
-| 06 | `project-06.qmd` | `assets/lead-06.svg` |
+Remove the template note at the bottom once the actual project information is ready.
 
-For each `.qmd` file:
-
-1. Change `title:` at the top. The sidebar label and large page heading both use this title automatically.
-2. Update `description:` at the top: this is the page's search-engine description.
-3. Replace the introductory sentence, lead's name, affiliation, and main description.
-4. Put the real photo in `assets`, for example `assets/lead-01.jpg`. Change the image line from `.svg` to `.jpg`, and change `fig-alt` to `Portrait of [name]`. Portrait photos work best; CSS crops them consistently.
-5. Remove the entire `.template-note` block when the page is ready. Keep the `:::` layout markers around other sections.
-6. Update the visible names in the previous/next links near the bottom if you want them to match your new titles. Keep their `.qmd` link targets unchanged, or delete the whole `.project-pagination` block.
-
-Use Markdown for links, for example `[Read the paper](https://example.org/paper)` or `[Contact the lead](mailto:name@example.org)`.
-
-The headings and bullets in the description are optional. Replace them with plain paragraphs if you prefer.
-
-To change the site name, edit `website.title` and `website.page-footer.left` in `_quarto.yml`. Update the sidebar and page footers as desired. Colours and typography are in `theme.scss`; layout details are in `styles.css`.
+Preview locally with `quarto preview`, or use **Quarto: Preview** in VS Code. R and Python are not required. Do not edit generated HTML in `_site`; the publishing workflow renders it automatically from these source files.
 
 ## Publish on GitHub Pages — automatic updates
 
@@ -89,23 +73,12 @@ quarto render
 
 ## Included files
 
-- `_quarto.yml`: website settings and six-project navigation.
-- Six `.qmd` files: project content, with project 01 as the homepage.
-- `assets/`: six original SVG placeholders, ready to replace with photos.
+- `_quarto.yml`: website configuration and four navigation links.
+- `index.qmd`, `events.qmd`, and `cait.qmd`: community pages.
+- `micro-grant-projects.qmd`: all six projects, in order.
+- `assets/`: six local portrait placeholders.
 - `theme.scss` and `styles.css`: appearance and responsive layout.
 - `.github/workflows/publish.yml`: automatic GitHub Pages publishing.
 - `.nojekyll`: bypasses Jekyll processing.
-- `_site/`: a rendered copy for inspection, included in this ZIP but ignored by Git.
 
-There are no analytics, external fonts, or third-party photo requests.
-
-## Documentation
-
-- [Quarto website navigation](https://quarto.org/docs/websites/website-navigation.html)
-- [Quarto and GitHub Pages](https://quarto.org/docs/publishing/github-pages.html)
-- [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
-- [Install Quarto](https://quarto.org/docs/get-started/)
-
-## Validation
-
-Rendered successfully with Quarto 1.11.9. All six pages were checked for navigation targets, active-page states, portrait and description elements, and local assets. The desktop layout and mobile navigation were checked in a browser. The GitHub Actions workflow is included and its configuration was checked, but it has not been run in your GitHub account.
+Generated files in `_site` are not tracked; GitHub builds and deploys them.

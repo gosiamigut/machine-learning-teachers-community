@@ -1,66 +1,26 @@
 ---
-title: "Project 01"
-description: "Project 01: add a short summary of the project here."
+title: "About us"
+description: "About the Machine Learning Teacher Community."
 ---
 
 ::: {.project-kicker}
-Our projects · 01 / 06
+Our community
 :::
 
-# {{< meta title >}} {#project-title}
+# {{< meta title >}} {#page-title}
 
 ::: {.project-intro}
-Add one sentence that captures the purpose of this project.
+Learn more about our community, activities, and projects.
 :::
 
-::::: {.project-layout}
+::: {.community-content}
+## Our community
 
-:::: {.lead-profile}
+Information about the Machine Learning Teacher Community will be added here.
 
-![](assets/lead-01.svg){.lead-photo fig-alt="Placeholder for the photograph of project 01's lead"}
+## Explore our work
 
-::: {.lead-label}
-Project lead
-:::
-
-::: {.lead-name}
-Project lead's name
-:::
-
-::: {.lead-affiliation}
-Department or organisation
-:::
-
-::::
-
-:::: {.project-description}
-
-## About the project
-
-Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
-
-Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
-
-### What we aim to achieve
-
-- Add the first goal or intended outcome.
-- Add the second goal or intended outcome.
-- Add the third goal or intended outcome.
-
-### Find out more
-
-Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
-
-::::
-
-:::::
-
-::: {.template-note}
-Template content · Replace the project title, portrait, lead details, and description with your own information.
-:::
-
-::: {.project-pagination}
-
-
-[Project 02 →](project-02.qmd)
+- [Events](events.qmd)
+- [CAIT](cait.qmd)
+- [Micro-grant projects](micro-grant-projects.qmd)
 :::

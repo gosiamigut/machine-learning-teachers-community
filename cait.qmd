@@ -1,0 +1,20 @@
+---
+title: "CAIT"
+description: "Information about CAIT."
+---
+
+::: {.project-kicker}
+CAIT
+:::
+
+# {{< meta title >}} {#page-title}
+
+::: {.project-intro}
+Find out more about CAIT.
+:::
+
+::: {.community-content}
+## About CAIT
+
+Information about CAIT and links to the platform will be added here.
+:::

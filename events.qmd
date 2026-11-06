@@ -1,0 +1,20 @@
+---
+title: "Events"
+description: "Events organised by the Machine Learning Teacher Community."
+---
+
+::: {.project-kicker}
+Meet and connect
+:::
+
+# {{< meta title >}} {#page-title}
+
+::: {.project-intro}
+Discover our community events.
+:::
+
+::: {.community-content}
+## Upcoming events
+
+Event dates, details, and registration information will be added here.
+:::
