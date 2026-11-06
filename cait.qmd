@@ -1,20 +1,46 @@
 ---
 title: "CAIT"
-description: "Information about CAIT."
+description: "Community Archive for Integrated Teaching: a shared home for materials that help us teach AI and machine learning."
 ---
 
 ::: {.project-kicker}
-CAIT
+Share teaching resources
 :::
 
 # {{< meta title >}} {#page-title}
 
 ::: {.project-intro}
-Find out more about CAIT.
+Community Archive for Integrated Teaching: a shared home for materials that help us teach AI and machine learning.
 :::
 
-::: {.community-content}
-## About CAIT
+:::: {.community-content}
+## Build on each other's teaching
 
-Information about CAIT and links to the platform will be added here.
+CAIT helps teachers discover and exchange educational materials. Its purpose is to make useful resources easier to find, adapt, and improve together, across courses and disciplines.
+
+::: {.action-links}
+[Explore CAIT](https://cait.tudelft.nl/){.btn .btn-primary}
+[Contact the CAIT team](mailto:cait-ewi@tudelft.nl){.btn .btn-outline-primary}
 :::
+
+## Find, adapt, contribute
+
+- **Find a good fit.** Resource descriptions help teachers judge the intended audience, prerequisites, and learning goals.
+- **Reuse and combine.** Collections called circuits connect materials into teaching sequences.
+- **Share experience.** Comments, feedback, and usage information help the community improve resources.
+- **Contribute materials.** Bring an activity, example, or teaching resource to the team and discuss how others could use it.
+
+## Developed with the community
+
+Bianca Giovanardi and Tom Viering have helped develop CAIT with the student team Praxidike and colleagues across TU Delft. The June 2026 presentation acknowledged contributions from Gosia Migut, Sara Colombo, Senthil Chandrasegaran, Dave Murray-Rust, Iulia Lefter, Martin Klomp, Bianca Giovanardi, and Paige Folsom.
+
+Support has included Convergence, Open Science, and Education Fellow grants. At the internal launch on **4 June 2026**, a wider launch was envisaged for the 2026–2027 academic year. Contact the team for current access and contribution arrangements.
+
+[View the June 2026 presentation (PDF)](https://filelist.tudelft.nl/Websections/AIDU/AI%20website%20%E2%80%93%20Education/CAIT_MLGetTogether.pdf)
+
+## Teaching materials as a shared resource
+
+A TU Delft interview with Tom Viering places CAIT within a broader commitment to open research and reusable teaching materials. Shared resources can help teachers spend more time improving learning activities and less time rebuilding similar material.
+
+[Read the TU Delft update on LinkedIn](https://www.linkedin.com/posts/tudelft_university-technology-innovation-activity-7471068639903854593-P74m)
+::::

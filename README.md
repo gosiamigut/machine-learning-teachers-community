@@ -1,55 +1,39 @@
 # Machine Learning Teacher Community website
 
-A Quarto website with four sidebar sections: **About us**, **Events**, **CAIT**, and **Micro-grant projects**. The micro-grant page shows all six projects one after another, each with a lead portrait on the left and description on the right. The layout stacks on small screens.
+A Quarto website with six sidebar sections, in order: **Events**, **CAIT**, **Research & Innovation**, **Micro-grant projects**, **Community blog**, and **About us**. Events is the landing page. The micro-grant page shows all six projects one after another, each with a lead portrait on the left and description on the right. The layout stacks on small screens.
 
 ## Edit the website
 
 | Section | File |
 | --- | --- |
-| About us (homepage) | `index.qmd` |
-| Events | `events.qmd` |
+| Events (homepage) | `index.qmd` |
 | CAIT | `cait.qmd` |
+| Research & Innovation | `research-innovation.qmd` |
 | All six micro-grant projects | `micro-grant-projects.qmd` |
+| Community blog | `community-blog.qmd` |
+| About us | `about.qmd` |
 | Navigation and site settings | `_quarto.yml` |
 | Styling | `styles.css` and `theme.scss` |
 
-The first three pages contain starter text. Replace it with your community information, events, and CAIT details.
+The community pages contain information adapted from TU Delft and public LinkedIn updates. `CONTENT_SOURCES.md` records the sources and remaining gaps. The previous `events.html` address redirects to the Events homepage.
 
-In `micro-grant-projects.qmd`, each project has its own numbered section. Edit its title, introductory sentence, lead name, affiliation, and description. Keep the layout markers (`:::`) intact. The six original portrait placeholders are in `assets/lead-01.svg` through `assets/lead-06.svg`.
+Edit sponsors in `website.page-footer` in `_quarto.yml`; the footer appears on every page. The current sponsors are TU Delft and AI Initiative. For events, update the featured gathering and move it into the year archive after it has taken place.
+
+In `micro-grant-projects.qmd`, five project descriptions and their teams are filled from the supplied document. The sixth section is reserved for the remaining project. Keep the layout markers (`:::`) intact when editing. The open-book project uses a small portrait grid for its five applicants.
 
 For a real portrait, put the photo in `assets`, update the corresponding image path (for example to `assets/lead-01.jpg`), and change its `fig-alt` to `Portrait of [name]`. Project links can point directly to `micro-grant-projects.html#project-01` through `#project-06`.
 
-Remove the template note at the bottom once the actual project information is ready.
+Replace the “More to come” section once the sixth project is available. The DigiPedia abstract in the supplied document was incomplete; add its final part when supplied.
 
 Preview locally with `quarto preview`, or use **Quarto: Preview** in VS Code. R and Python are not required. Do not edit generated HTML in `_site`; the publishing workflow renders it automatically from these source files.
 
 ## Publish on GitHub Pages — automatic updates
 
-These instructions are for a **new, separate repository**, such as `project-showcase`. They do not modify an existing personal website.
+This site is published at <https://gosiamigut.github.io/machine-learning-teachers-community/> from the `main` branch of `gosiamigut/machine-learning-teachers-community`.
 
-1. Create an empty repository on GitHub. A public repository works with GitHub Free. Give it a name such as `project-showcase`; choose `main` as the default branch.
-2. Put **the contents of this folder** at the repository root, with `_quarto.yml` directly at the root. Include `.github/workflows/publish.yml`, `.gitignore`, and `.nojekyll`. Do not upload the ZIP itself, the containing folder, or the generated `_site` directory.
-3. In the repository, open **Settings → Pages**. Under **Build and deployment → Source**, choose **GitHub Actions**.
-4. Open **Actions → Publish Quarto website to GitHub Pages → Run workflow** and run it for `main`. Later pushes to `main` publish automatically.
-5. Wait for the workflow to finish successfully. Its deployment link and **Settings → Pages** show the published address, normally `https://YOUR-USERNAME.github.io/project-showcase/`.
+Saving changes to `main` automatically runs **Publish Quarto website to GitHub Pages**. To run it manually, open **Actions**, select that workflow, then choose **Run workflow → main**. In **Settings → Pages**, the source must remain **GitHub Actions**.
 
-The workflow builds Quarto and deploys `_site` through GitHub's Pages actions. No personal access token or `_publish.yml` file is needed for this setup. GitHub supplies its workflow token.
-
-**Uploading on a Mac:** folders beginning with a dot may be hidden in Finder. Press **Command–Shift–.** to show them. Make sure `.github/workflows/publish.yml` reaches GitHub: without it, automatic publishing will not run. If necessary, create it in GitHub with **Add file → Create new file**, enter `.github/workflows/publish.yml` as its full name, and paste the supplied workflow.
-
-### Optional: publish with Git from Terminal
-
-Run these commands inside the unzipped `project-showcase` folder after creating the empty GitHub repository. Replace the example remote URL with your own.
-
-```bash
-git init -b main
-git add .
-git commit -m "Add Quarto project website"
-git remote add origin https://github.com/YOUR-USERNAME/project-showcase.git
-git push -u origin main
-```
-
-Then complete steps 3–5 above. GitHub may ask you to authenticate.
+The workflow installs Quarto, renders the source files, and deploys `_site`. No personal access token or `_publish.yml` is needed. Keep `.github/workflows/publish.yml` in the repository.
 
 ### Updating the published website
 
@@ -73,10 +57,12 @@ quarto render
 
 ## Included files
 
-- `_quarto.yml`: website configuration and four navigation links.
-- `index.qmd`, `events.qmd`, and `cait.qmd`: community pages.
+- `_quarto.yml`: website configuration and six navigation links.
+- `index.qmd`: Events homepage.
+- `cait.qmd`, `research-innovation.qmd`, `community-blog.qmd`, and `about.qmd`: community pages.
 - `micro-grant-projects.qmd`: all six projects, in order.
-- `assets/`: six local portrait placeholders.
+- `assets/`: project portraits, original portrait placeholders, and community photographs.
+- `CONTENT_SOURCES.md`: content provenance and outstanding details.
 - `theme.scss` and `styles.css`: appearance and responsive layout.
 - `.github/workflows/publish.yml`: automatic GitHub Pages publishing.
 - `.nojekyll`: bypasses Jekyll processing.

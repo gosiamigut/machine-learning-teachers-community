@@ -1,0 +1,50 @@
+---
+title: "Research & Innovation"
+description: "Studies and educational initiatives that connect classroom questions with evidence about learning machine learning."
+---
+
+::: {.project-kicker}
+Understanding how students learn
+:::
+
+# {{< meta title >}} {#page-title}
+
+::: {.project-intro}
+Studies and educational initiatives that connect classroom questions with evidence about learning machine learning.
+:::
+
+:::: {.community-content}
+## The concepts that change how students see ML
+
+**Lisa Zhang, Gosia Migut, and Jesse H. Krijthe · ITiCSE 2026**
+
+This work investigates ideas that can transform students' understanding of machine learning. Five proposed concepts concern optimisation, balancing sources of error, empirical investigation, geometry, and probability. The community discussed how these perspectives can inform teaching on 1 October 2026.
+
+[Presentation (PDF)](https://filelist.tudelft.nl/Websections/AIDU/Website%20ML%20Teachers%20Community/Documents/lunch1Oct26_GosiaJesse.pdf) · [Accompanying blog](https://www.cs.toronto.edu/~lczhang/iticse2026/blog.html)
+
+## Which comes first: models or applications?
+
+**Ilinca Rențea · Presented 1 October 2026**
+
+A study across TU Delft, the University of Toronto, and North Carolina State University involved 117 students in linear-regression workshops. It compared the order of model-focused and application-focused instruction, examining knowledge, motivation, and students' perceptions.
+
+The preliminary findings presented in October did not show a statistically significant difference in knowledge or motivation between the conditions. Written responses suggested possible differences in how students framed the subject. These are preliminary findings, rather than a final conclusion about the best teaching sequence.
+
+[Study presentation (PDF)](https://filelist.tudelft.nl/Websections/AIDU/Website%20ML%20Teachers%20Community/Documents/lunch1Oct26_Ilinca.pdf) · [Contact Ilinca](mailto:I.E.I.Rentea@tudelft.nl)
+
+## The mathematics students need
+
+**Matias Valdenegro Toro · University of Groningen**
+
+A Senior University Teaching Qualification study, discussed at the October gathering, examined mathematical prerequisites for ML teaching: calculus, linear algebra, probability, and statistics.
+
+[Find the October gathering](index.qmd#event-archive)
+
+## Education Fellowship 2026
+
+**Gosia Migut and Tom Viering**
+
+Their Education Fellowship project develops the next steps for the AI teaching community. It connects shared teaching materials through CAIT with community exchange and small educational projects, helping teachers build on each other's work across faculties.
+
+[Read the TU Delft fellowship announcement](https://www.tudelft.nl/en/ai/research-innovation/ai-awards-grants) · [Explore micro-grant projects](micro-grant-projects.qmd)
+::::

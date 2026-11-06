@@ -1,6 +1,6 @@
 ---
 title: "Micro-grant projects"
-description: "Explore the six micro-grant projects and meet their project leads."
+description: "Meet the people developing new approaches to machine learning education through community micro-grants."
 ---
 
 ::: {.project-kicker}
@@ -10,37 +10,39 @@ Our projects
 # {{< meta title >}} {#micro-grant-projects}
 
 ::: {.project-intro}
-Explore our six micro-grant projects and meet the people leading them.
+Small projects that help teachers develop, test, and share new approaches to machine learning education.
 :::
+
+The community's micro-grants support educational experimentation and collaboration across courses and disciplines. Explore the projects and the people behind them below.
 
 :::::: {.grant-project}
 
 ::: {.project-kicker}
-Project 01 / 06
+Project 01
 :::
 
-## Project 01 {.grant-title #project-01}
+## Active Guided Lab Sessions to Improve Code Understanding in ML/AI Courses {.grant-title #project-01}
 
 ::: {.project-intro}
-Add one sentence that captures the purpose of this project.
+Helping students reason about code through guided, hands-on lab work.
 :::
 
 ::::: {.project-layout}
 
 :::: {.lead-profile}
 
-![](assets/lead-01.svg){.lead-photo fig-alt="Placeholder for the photograph of project 01's lead"}
+![](assets/elena-congeduti.jpg){.lead-photo fig-alt="Portrait of Elena Congeduti supplied with the project description"}
 
 ::: {.lead-label}
 Project lead
 :::
 
 ::: {.lead-name}
-Project lead's name
+Elena Congeduti
 :::
 
 ::: {.lead-affiliation}
-Department or organisation
+EEMCS, TU Delft
 :::
 
 ::::
@@ -49,19 +51,11 @@ Department or organisation
 
 ### About the project {.description-title #project-01-about}
 
-Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+With LLM-generated solutions readily available, students can be drawn to reading solutions instead of writing code themselves. This may create an impression of understanding without the reasoning and practice that programming competence requires. The project responds to teachers' observations of declining programming performance in ML/AI courses and the limitations of autonomous work with fill-in-the-blank notebooks.
 
-Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+The proposed alternative is a series of Teaching Assistant-led sessions. Students will work through algorithm steps on paper, predict what code will do before running it, debug broken implementations, and write code live while interpreting errors. Templated notebooks and ready-made solutions will not be provided.
 
-#### What we aim to achieve {#project-01-goals}
-
-- Add the first goal or intended outcome.
-- Add the second goal or intended outcome.
-- Add the third goal or intended outcome.
-
-#### Find out more {#project-01-more}
-
-Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+A small set of sessions will be piloted, with their effects evaluated through student performance and feedback.
 
 ::::
 
@@ -72,31 +66,27 @@ Add contact details, a link to a publication, or information about how people ca
 :::::: {.grant-project}
 
 ::: {.project-kicker}
-Project 02 / 06
+Project 02
 :::
 
-## Project 02 {.grant-title #project-02}
+## Green AI Education through an Optimization Competition {.grant-title #project-02}
 
 ::: {.project-intro}
-Add one sentence that captures the purpose of this project.
+A Sustainable AI competition that brings accuracy, speed, and energy efficiency into the same task.
 :::
 
 ::::: {.project-layout}
 
 :::: {.lead-profile}
 
-![](assets/lead-02.svg){.lead-photo fig-alt="Placeholder for the photograph of project 02's lead"}
+![](assets/enrique-barba-roque.jpg){.lead-photo fig-alt="Portrait of Enrique Barba Roque supplied with the project description"}
 
 ::: {.lead-label}
 Project lead
 :::
 
 ::: {.lead-name}
-Project lead's name
-:::
-
-::: {.lead-affiliation}
-Department or organisation
+Enrique Barba Roque
 :::
 
 ::::
@@ -105,19 +95,11 @@ Department or organisation
 
 ### About the project {.description-title #project-02-about}
 
-Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+AI courses often emphasise training models and measuring their effectiveness. Sustainability and energy consumption can receive less attention, despite their importance to the environmental impact of AI development.
 
-Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+This project will organise a Sustainable AI competition. Participants will develop or optimise a model for a given task and assess both its effectiveness and resource consumption. An automated testing framework will measure accuracy, speed, and energy efficiency, encouraging students to explore the trade-offs between them.
 
-#### What we aim to achieve {#project-02-goals}
-
-- Add the first goal or intended outcome.
-- Add the second goal or intended outcome.
-- Add the third goal or intended outcome.
-
-#### Find out more {#project-02-more}
-
-Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+The competition aims to make Green AI accessible to students from different disciplines, build a community around sustainable AI, and develop practical skills for future work. The project will also investigate competition-based learning as an approach to teaching AI sustainability. Its materials and testing framework will be made available for future educational and research activities.
 
 ::::
 
@@ -128,31 +110,31 @@ Add contact details, a link to a publication, or information about how people ca
 :::::: {.grant-project}
 
 ::: {.project-kicker}
-Project 03 / 06
+Project 03
 :::
 
-## Project 03 {.grant-title #project-03}
+## Advanced AI Themes in the Built Environment {.grant-title #project-03}
 
 ::: {.project-intro}
-Add one sentence that captures the purpose of this project.
+Expanding teaching materials on DigiPedia.
 :::
 
 ::::: {.project-layout}
 
 :::: {.lead-profile}
 
-![](assets/lead-03.svg){.lead-photo fig-alt="Placeholder for the photograph of project 03's lead"}
+![](assets/digipedia-project.jpg){.lead-photo fig-alt="Photograph supplied with the DigiPedia project description"}
 
 ::: {.lead-label}
-Project lead
+Project applicants
 :::
 
 ::: {.lead-name}
-Project lead's name
+Dr. Nan Bai & Dr. Pei-Yu Wu
 :::
 
 ::: {.lead-affiliation}
-Department or organisation
+Architecture and the Built Environment (BK), TU Delft
 :::
 
 ::::
@@ -161,19 +143,9 @@ Department or organisation
 
 ### About the project {.description-title #project-03-about}
 
-Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+Current graduate ML/AI courses in the Faculty of Architecture and the Built Environment focus primarily on introductory and classical machine learning approaches. The project aims to extend this curriculum with advanced topics relevant to urban and building analytics, including natural language processing, graph neural networks, and agentic AI.
 
-Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
-
-#### What we aim to achieve {#project-03-goals}
-
-- Add the first goal or intended outcome.
-- Add the second goal or intended outcome.
-- Add the third goal or intended outcome.
-
-#### Find out more {#project-03-more}
-
-Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+The team will expand [DigiPedia](https://digipedia.tudelft.nl/), TU Delft's initiative for open education, with deep learning and generative AI materials tailored to BK's computational curriculum. These resources will broaden the methods available to students and support interdisciplinary research in the built environment.
 
 ::::
 
@@ -184,31 +156,27 @@ Add contact details, a link to a publication, or information about how people ca
 :::::: {.grant-project}
 
 ::: {.project-kicker}
-Project 04 / 06
+Project 04
 :::
 
-## Project 04 {.grant-title #project-04}
+## Shared Deep Learning Pre-course for Computer Vision and Robotic Perception {.grant-title #project-04}
 
 ::: {.project-intro}
-Add one sentence that captures the purpose of this project.
+A reusable foundation for students entering courses in visual perception and spatial AI.
 :::
 
 ::::: {.project-layout}
 
 :::: {.lead-profile}
 
-![](assets/lead-04.svg){.lead-photo fig-alt="Placeholder for the photograph of project 04's lead"}
+![](assets/jingkun-feng.jpg){.lead-photo fig-alt="Portrait of Jingkun Feng supplied with the project description"}
 
 ::: {.lead-label}
 Project lead
 :::
 
 ::: {.lead-name}
-Project lead's name
-:::
-
-::: {.lead-affiliation}
-Department or organisation
+Jingkun Feng
 :::
 
 ::::
@@ -217,19 +185,11 @@ Department or organisation
 
 ### About the project {.description-title #project-04-about}
 
-Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+Computer vision and robotic perception are increasingly important across engineering, from autonomous systems and human–robot collaboration to infrastructure monitoring, built-environment mapping, and visual inspection. Yet students familiar with general AI and deep learning can still struggle to apply that knowledge to visual perception data, models, and evaluation practices.
 
-Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+This project will develop a lightweight pre-course for students entering domain-specific AI/ML courses involving computer vision, robotic perception, and spatial AI. It will combine short learning materials, code-based tutorials, exercises, and diagnostic tests.
 
-#### What we aim to achieve {#project-04-goals}
-
-- Add the first goal or intended outcome.
-- Add the second goal or intended outcome.
-- Add the third goal or intended outcome.
-
-#### Find out more {#project-04-more}
-
-Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+Designed for reuse across faculties, the pre-course will provide a shared foundation before practical sessions and project work. It aims to help students participate more confidently while supporting teachers in adapting computer vision materials to their own engineering domains.
 
 ::::
 
@@ -240,31 +200,35 @@ Add contact details, a link to a publication, or information about how people ca
 :::::: {.grant-project}
 
 ::: {.project-kicker}
-Project 05 / 06
+Project 05
 :::
 
-## Project 05 {.grant-title #project-05}
+## The Interactive, Multi-level Open Book on Machine Learning {.grant-title #project-05}
 
 ::: {.project-intro}
-Add one sentence that captures the purpose of this project.
+An open, adaptable learning resource for undergraduate engineering students.
 :::
 
 ::::: {.project-layout}
 
 :::: {.lead-profile}
 
-![](assets/lead-05.svg){.lead-photo fig-alt="Placeholder for the photograph of project 05's lead"}
-
 ::: {.lead-label}
-Project lead
+Project team
 :::
 
-::: {.lead-name}
-Project lead's name
+::: {.project-team}
+<div class="team-member"><a href="https://www.tudelft.nl/ai/onderwijs/ai-onderwijsinnovatie/machine-learning-teachers-community"><img src="assets/elena-congeduti.jpg" alt="Portrait of Elena Congeduti" loading="lazy"><span>Elena Congeduti</span></a></div>
+<div class="team-member"><a href="https://www.jessekrijthe.com/"><img src="assets/jesse-krijthe.jpg" alt="Portrait of Jesse Krijthe" loading="lazy"><span>Jesse Krijthe</span></a></div>
+<div class="team-member"><a href="https://gosiamigut.github.io/"><img src="assets/gosia-migut.jpg" alt="Portrait of Gosia Migut" loading="lazy"><span>Gosia Migut</span></a></div>
+<div class="team-member"><a href="https://tomviering.nl/"><img src="assets/tom-viering.jpg" alt="Portrait of Tom Viering" loading="lazy"><span>Tom Viering</span></a></div>
+<div class="team-member"><a href="https://www.utm.utoronto.ca/math-cs-stats/people/lisa-zhang"><img src="assets/lisa-zhang.jpg" alt="Portrait of Lisa Zhang" loading="lazy"><span>Lisa Zhang</span></a></div>
 :::
 
 ::: {.lead-affiliation}
-Department or organisation
+Elena Congeduti, Jesse Krijthe, Gosia Migut, and Tom Viering: EEMCS, TU Delft.
+
+Lisa Zhang: University of Toronto.
 :::
 
 ::::
@@ -273,19 +237,11 @@ Department or organisation
 
 ### About the project {.description-title #project-05-about}
 
-Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
+Across ML and deep learning courses, no single resource fits every student. Existing materials can be fragmented, inconsistent in notation and style, or aimed at one particular audience. Teachers already have considerable expertise and teaching material; the challenge is to bring these contributions together into a coherent, interactive resource.
 
-Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
+The long-term ambition is an open, personalisable ML book for undergraduate students: mathematically sound, intuitive, and usable across faculties. It will cover established foundations alongside topics that receive less attention in existing resources, such as fairness, Bayes classifiers, reinforcement learning, and LLMs.
 
-#### What we aim to achieve {#project-05-goals}
-
-- Add the first goal or intended outcome.
-- Add the second goal or intended outcome.
-- Add the third goal or intended outcome.
-
-#### Find out more {#project-05-more}
-
-Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+This project takes the first steps towards that ambition. The team will develop example chapters and design and validate the book's structure, including a scalable authoring model and layered chapters that can be personalised to different learners.
 
 ::::
 
@@ -296,52 +252,24 @@ Add contact details, a link to a publication, or information about how people ca
 :::::: {.grant-project}
 
 ::: {.project-kicker}
-Project 06 / 06
+Project 06
 :::
 
-## Project 06 {.grant-title #project-06}
-
-::: {.project-intro}
-Add one sentence that captures the purpose of this project.
-:::
+## More to come {.grant-title #project-06}
 
 ::::: {.project-layout}
 
 :::: {.lead-profile}
 
-![](assets/lead-06.svg){.lead-photo fig-alt="Placeholder for the photograph of project 06's lead"}
-
-::: {.lead-label}
-Project lead
-:::
-
-::: {.lead-name}
-Project lead's name
-:::
-
-::: {.lead-affiliation}
-Department or organisation
-:::
+![](assets/lead-06.svg){.lead-photo fig-alt="Placeholder for the sixth project's lead portrait"}
 
 ::::
 
 :::: {.project-description}
 
-### About the project {.description-title #project-06-about}
+### Project details coming soon {.description-title #project-06-about}
 
-Describe the project here. Introduce the problem or opportunity that motivates the work, and explain why it matters. Keep this opening paragraph accessible to someone encountering the project for the first time.
-
-Explain what the team is doing, who is involved, and how the project addresses the problem. You can include the main activities, research approach, or collaboration with partners.
-
-#### What we aim to achieve {#project-06-goals}
-
-- Add the first goal or intended outcome.
-- Add the second goal or intended outcome.
-- Add the third goal or intended outcome.
-
-#### Find out more {#project-06-more}
-
-Add contact details, a link to a publication, or information about how people can get involved. Delete this section if it is not needed.
+The sixth project will be added here when its team and description are available.
 
 ::::
 
@@ -349,6 +277,6 @@ Add contact details, a link to a publication, or information about how people ca
 
 ::::::
 
-::: {.template-note}
-Template content · Project titles, portraits, lead details, and descriptions will be updated.
+::: {.join-strip}
+For questions about the micro-grant programme, contact [ml-teaching-community@tudelft.nl](mailto:ml-teaching-community@tudelft.nl).
 :::

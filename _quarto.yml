@@ -3,16 +3,18 @@ project:
   output-dir: _site
   render:
     - index.qmd
-    - events.qmd
     - cait.qmd
+    - research-innovation.qmd
     - micro-grant-projects.qmd
+    - community-blog.qmd
+    - about.qmd
   resources:
     - assets/
     - .nojekyll
 
 website:
   title: "ML Teacher Community"
-  description: "Explore the Machine Learning Teacher Community, events, CAIT, and micro-grant projects."
+  description: "Explore community events, CAIT, research and innovation, micro-grant projects, and the community blog."
   search: false
   sidebar:
     style: docked
@@ -21,18 +23,31 @@ website:
     border: false
     pinned: true
     contents:
-      - text: "About us"
-        href: index.qmd
       - text: "Events"
-        href: events.qmd
+        href: index.qmd
       - text: "CAIT"
         href: cait.qmd
+      - text: "Research & Innovation"
+        href: research-innovation.qmd
       - text: "Micro-grant projects"
         href: micro-grant-projects.qmd
+      - text: "Community blog"
+        href: community-blog.qmd
+      - text: "About us"
+        href: about.qmd
     footer: "People, ideas, and impact."
   page-footer:
-    left: "ML Teacher Community"
-    right: "People, ideas, and impact."
+    center: |
+      ```{=html}
+      <div class="sponsor-footer">
+        <div class="sponsor-label">Sponsors</div>
+        <div class="sponsor-links">
+          <a href="https://www.tudelft.nl/">TU Delft</a>
+          <a href="https://www.tudelft.nl/ai">AI Initiative</a>
+        </div>
+        <div class="footer-community">Machine Learning Teachers Community</div>
+      </div>
+      ```
 
 format:
   html:

@@ -1,0 +1,62 @@
+---
+title: "Community blog"
+description: "Short reads, teaching reflections, and links to stories from our community."
+---
+
+::: {.project-kicker}
+Ideas from our community
+:::
+
+# {{< meta title >}} {#page-title}
+
+::: {.project-intro}
+Short reads, teaching reflections, and links to stories from our community.
+:::
+
+:::: {.community-content}
+::: {.story-meta}
+From the 1 October 2026 gathering
+:::
+
+## Three questions for ML teachers
+
+What mathematics do students need? Which concepts change their understanding of ML? And should teaching begin with models or applications? October's gathering brought these questions together through contributions from Matias Valdenegro Toro, Gosia Migut, Jesse Krijthe, and Ilinca Rențea.
+
+[Explore the studies and slides](research-innovation.qmd)
+
+::: {.story-meta}
+Reading recommendation · ITiCSE 2026
+:::
+
+## When a concept changes the bigger picture
+
+Lisa Zhang, Gosia Migut, and Jesse Krijthe's work on threshold concepts offers a starting point for discussing the ideas students need to see ML as a connected subject. The authors' accompanying blog is linked from the TU Delft community page.
+
+[Read the authors' blog](https://www.cs.toronto.edu/~lczhang/iticse2026/blog.html) · [View their presentation](https://filelist.tudelft.nl/Websections/AIDU/Website%20ML%20Teachers%20Community/Documents/lunch1Oct26_GosiaJesse.pdf)
+
+::: {.story-meta}
+From TU Delft on LinkedIn
+:::
+
+## Making teaching resources easier to share
+
+TU Delft's interview with Tom Viering introduces CAIT alongside his work on data-efficient learning and open research. For teachers, the practical question is how to find material that fits a course—and make their own resources useful to colleagues.
+
+[Read the original LinkedIn update](https://www.linkedin.com/posts/tudelft_university-technology-innovation-activity-7471068639903854593-P74m) · [Discover CAIT](cait.qmd)
+
+::: {.story-meta}
+From the 19 December 2023 gathering
+:::
+
+## Critical thinking belongs in ML education
+
+A discussion with Filippo Santoni de Sio explored teachers' role in helping students examine the ethical and political dimensions of AI. Colleagues shared practical teaching experiences and considered how critical thinking can become part of ML education.
+
+![Participants at the December 2023 discussion on critical thinking. Photo: TU Delft community website.](assets/critical-thinking.jpg){.community-photo fig-alt="Teachers gathered around a table for the December 2023 discussion"}
+
+[Read the original LinkedIn recap](https://www.linkedin.com/posts/tudelftai_ai-machinelearning-education-activity-7143223531525345281-2c8W)
+
+::: {.join-strip}
+Follow the [community on LinkedIn](https://www.linkedin.com/company/146490082/) for more updates, or [email us](mailto:ml-teaching-community@tudelft.nl) to suggest a story.
+:::
+::::
