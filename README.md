@@ -68,3 +68,14 @@ quarto render
 - `.nojekyll`: bypasses Jekyll processing.
 
 Generated files in `_site` are not tracked; GitHub builds and deploys them.
+
+### Colours, typography, and sponsor marks
+
+Edit `theme.scss` for Quarto theme settings and `styles.css` for the page layouts.
+The shared footer is in `_quarto.yml`. Keep sponsor marks in `assets/brand/`
+unchanged; their official sources are recorded alongside them. Roboto Slab is
+served locally from `assets/fonts/`; retain its Apache 2.0 license if redistributing.
+
+Events remains the landing page. The sidebar keeps About us at the bottom on
+desktop. Project jump links use the existing `#project-01` through `#project-06`
+anchors. Mobile navigation uses Quarto's built-in menu.

@@ -15,6 +15,17 @@ Small projects that help teachers develop, test, and share new approaches to mac
 
 The community's micro-grants support educational experimentation and collaboration across courses and disciplines. Explore the projects and the people behind them below.
 
+::: {.project-jump}
+Jump to a project
+
+1. [Guided lab sessions](#project-01)
+2. [Green AI competition](#project-02)
+3. [DigiPedia teaching materials](#project-03)
+4. [Deep learning pre-course](#project-04)
+5. [Open book on ML](#project-05)
+6. [More to come](#project-06)
+:::
+
 :::::: {.grant-project}
 
 ::: {.project-kicker}

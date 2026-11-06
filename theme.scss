@@ -1,15 +1,15 @@
 /*-- scss:defaults --*/
-$body-bg: #fbfaf7;
-$body-color: #243b3d;
-$link-color: #176b65;
-$primary: #176b65;
-$font-family-sans-serif: "Avenir Next", "Segoe UI", Arial, sans-serif;
-$headings-font-family: Georgia, "Times New Roman", serif;
+$body-bg: #ffffff;
+$body-color: #0C2340;
+$link-color: #0C2340;
+$primary: #0C2340;
+$font-family-sans-serif: Arial, sans-serif;
+$headings-font-family: "Roboto Slab", Georgia, serif;
 $font-size-root: 17px;
-$headings-font-weight: 400;
-$sidebar-bg: #153638;
-$sidebar-fg: #ffffff;
-$sidebar-hl: #f0d8a1;
+$headings-font-weight: 500;
+$sidebar-bg: #ffffff;
+$sidebar-fg: #0C2340;
+$sidebar-hl: #0C2340;
 
 /*-- scss:rules --*/
-::selection { background: #e9d6aa; color: #153638; }
+::selection { background: #E6F6FA; color: #0C2340; }

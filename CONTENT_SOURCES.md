@@ -47,3 +47,21 @@ The open-book team uses Elena’s supplied photo and these public professional p
 - Gosia: [Profile](https://gosiamigut.github.io/); [portrait source](https://gosiamigut.github.io/assets/img/Migut.jpg?ced1abdaa461904de8b0180b1cd3e217).
 - Tom: [Profile](https://tomviering.nl/); [portrait source](https://tomviering.nl/assets/images/Tom2.jpg).
 - Jesse: [Profile](https://www.tudelft.nl/en/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/pattern-recognition-bioinformatics/people/jesse-krijthe); [portrait source](https://t.e7096c671.entry.domains/inqlzqR_lcJuJN3PE-G_ruee_0Q=/0x0:740x740/301x301/filters:strip_exif()/https%3A%2F%2Ffilelist.tudelft.nl%2FEWI%2FAfdelingen%2FINSY%2FPattern%2520Recogition%2520%2526%2520Bioinformatics%2FPattern%2520Recognition%2520Lab%2FPeople%2Fjessek-denoise-denoise.jpg%3Fhash%3D37841252c4).
+
+## Visual design update — 6 November 2026
+
+The website uses TU Delft's cyan (#00A6D6), dark blue (#0C2340), white,
+pale blue (#E6F6FA), and small orange (#EC6842) accents. The reference is the
+[official English brandbook](https://filelist.tudelft.nl/Websections/Huisstijl/Merk/Brandbook_en.pdf).
+Headings use locally hosted Roboto Slab; body text uses Arial.
+
+Original sponsor marks and their exact official source URLs are documented in
+`assets/brand/SOURCES.md`. Font sources, copyright, and the Apache 2.0 license
+are retained in `assets/fonts/`. Logos are displayed without recolouring or
+altering their proportions.
+
+The landing-page photo and the first blog preview use an archive community
+photograph, not a photograph of the October 2026 gathering. Blog metadata
+identifies event dates, authors, or source organisations where known; an unknown
+publication date is not inferred. The six project profiles, archive entries,
+and their existing links are preserved.

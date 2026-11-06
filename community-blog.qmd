@@ -13,9 +13,14 @@ Ideas from our community
 Short reads, teaching reflections, and links to stories from our community.
 :::
 
-:::: {.community-content}
+:::::: {.story-list}
+::::: {.story-card}
+:::: {.story-image}
+![Community archive photo: TU Delft.](assets/get-together.jpg){fig-alt="Teachers exchanging ideas at a community get-together; archive photograph"}
+::::
+:::: {.story-copy}
 ::: {.story-meta}
-From the 1 October 2026 gathering
+1 October 2026 · Community gathering
 :::
 
 ## Three questions for ML teachers
@@ -23,9 +28,23 @@ From the 1 October 2026 gathering
 What mathematics do students need? Which concepts change their understanding of ML? And should teaching begin with models or applications? October's gathering brought these questions together through contributions from Matias Valdenegro Toro, Gosia Migut, Jesse Krijthe, and Ilinca Rențea.
 
 [Explore the studies and slides](research-innovation.qmd)
+::::
+:::::
 
+::::: {.story-card}
+:::: {.story-image}
+```{=html}
+<div class="story-portraits">
+  <img src="assets/lisa-zhang.jpg" alt="Lisa Zhang" loading="lazy" width="200" height="300">
+  <img src="assets/gosia-migut.jpg" alt="Gosia Migut" loading="lazy" width="200" height="300">
+  <img src="assets/jesse-krijthe.jpg" alt="Jesse Krijthe" loading="lazy" width="200" height="300">
+</div>
+<div class="story-portrait-caption">Authors: Lisa Zhang, Gosia Migut, and Jesse Krijthe.</div>
+```
+::::
+:::: {.story-copy}
 ::: {.story-meta}
-Reading recommendation · ITiCSE 2026
+ITiCSE 2026 · Reading recommendation
 :::
 
 ## When a concept changes the bigger picture
@@ -33,9 +52,16 @@ Reading recommendation · ITiCSE 2026
 Lisa Zhang, Gosia Migut, and Jesse Krijthe's work on threshold concepts offers a starting point for discussing the ideas students need to see ML as a connected subject. The authors' accompanying blog is linked from the TU Delft community page.
 
 [Read the authors' blog](https://www.cs.toronto.edu/~lczhang/iticse2026/blog.html) · [View their presentation](https://filelist.tudelft.nl/Websections/AIDU/Website%20ML%20Teachers%20Community/Documents/lunch1Oct26_GosiaJesse.pdf)
+::::
+:::::
 
+::::: {.story-card}
+:::: {.story-image}
+![Tom Viering. Photo: TU Delft profile.](assets/tom-viering.jpg){.portrait-story fig-alt="Portrait of Tom Viering"}
+::::
+:::: {.story-copy}
 ::: {.story-meta}
-From TU Delft on LinkedIn
+TU Delft on LinkedIn · Interview
 :::
 
 ## Making teaching resources easier to share
@@ -43,20 +69,27 @@ From TU Delft on LinkedIn
 TU Delft's interview with Tom Viering introduces CAIT alongside his work on data-efficient learning and open research. For teachers, the practical question is how to find material that fits a course—and make their own resources useful to colleagues.
 
 [Read the original LinkedIn update](https://www.linkedin.com/posts/tudelft_university-technology-innovation-activity-7471068639903854593-P74m) · [Discover CAIT](cait.qmd)
+::::
+:::::
 
+::::: {.story-card}
+:::: {.story-image}
+![The December 2023 discussion. Photo: TU Delft.](assets/critical-thinking.jpg){fig-alt="Teachers gathered around a table for the December 2023 discussion on critical thinking"}
+::::
+:::: {.story-copy}
 ::: {.story-meta}
-From the 19 December 2023 gathering
+19 December 2023 · TU Delft | AI recap
 :::
 
 ## Critical thinking belongs in ML education
 
 A discussion with Filippo Santoni de Sio explored teachers' role in helping students examine the ethical and political dimensions of AI. Colleagues shared practical teaching experiences and considered how critical thinking can become part of ML education.
 
-![Participants at the December 2023 discussion on critical thinking. Photo: TU Delft community website.](assets/critical-thinking.jpg){.community-photo fig-alt="Teachers gathered around a table for the December 2023 discussion"}
-
 [Read the original LinkedIn recap](https://www.linkedin.com/posts/tudelftai_ai-machinelearning-education-activity-7143223531525345281-2c8W)
+::::
+:::::
+::::::
 
 ::: {.join-strip}
 Follow the [community on LinkedIn](https://www.linkedin.com/company/146490082/) for more updates, or [email us](mailto:ml-teaching-community@tudelft.nl) to suggest a story.
 :::
-::::

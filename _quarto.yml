@@ -18,8 +18,8 @@ website:
   search: false
   sidebar:
     style: docked
-    background: "#153638"
-    foreground: "#ffffff"
+    background: "#ffffff"
+    foreground: "#0C2340"
     border: false
     pinned: true
     contents:
@@ -42,8 +42,8 @@ website:
       <div class="sponsor-footer">
         <div class="sponsor-label">Sponsors</div>
         <div class="sponsor-links">
-          <a href="https://www.tudelft.nl/">TU Delft</a>
-          <a href="https://www.tudelft.nl/ai">AI Initiative</a>
+          <a href="https://www.tudelft.nl/"><img class="sponsor-tu" src="assets/brand/tu-delft.svg" alt="TU Delft" width="140" height="79"></a>
+          <a href="https://www.tudelft.nl/ai"><img class="sponsor-ai" src="assets/brand/tu-delft-ai-initiative.png" alt="TU Delft AI Initiative" width="860" height="171"></a>
         </div>
         <div class="footer-community">Machine Learning Teachers Community</div>
       </div>

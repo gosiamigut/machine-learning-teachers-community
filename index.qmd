@@ -5,15 +5,27 @@ aliases:
 description: "A place to exchange teaching experiences, explore new ideas, and connect with colleagues across TU Delft."
 ---
 
+::::: {.events-hero}
+:::: {.hero-copy}
 ::: {.project-kicker}
-Meet, share, learn
+Machine Learning Teachers Community
 :::
 
 # {{< meta title >}} {#page-title}
 
 ::: {.project-intro}
-A place to exchange teaching experiences, explore new ideas, and connect with colleagues across TU Delft.
+Teaching machine learning is something we can learn together. Meet colleagues across TU Delft, exchange experiences, and bring new ideas into your classroom.
 :::
+
+::: {.action-links}
+[Join the community](https://listserv.tudelft.nl/mailman/listinfo/ml-teaching-community){.btn .btn-primary}
+:::
+::::
+
+:::: {.hero-photo}
+![Learning from each other at a community get-together. Photo: TU Delft.](assets/get-together.jpg){fig-alt="Teachers sharing ideas at a gathering in the Teaching Lab"}
+::::
+:::::
 
 :::: {.event-feature}
 ::: {.event-label}
@@ -25,16 +37,21 @@ Next get-together · 1 December 2026
 **Alexander Heinlein**, Assistant Professor of Applied Mathematics at EEMCS, will share his experience of setting up a Scientific Machine Learning course.
 
 ::: {.event-meta}
-**Tuesday 1 December · 12:30–13:30**  
-Teaching Lab · Room 32A.0.2 · TU Delft  
+**Tuesday 1 December · 12:30–13:30**<br>
+Teaching Lab · Room 32A.0.2 · TU Delft<br>
 All times are local to Delft.
 :::
+
+<details class="event-programme">
+<summary>View the programme</summary>
 
 | Time | Programme |
 |:--|:--|
 | 12:30–12:45 | Lunch and catch-up |
 | 12:45–13:15 | Presentation |
 | 13:15–13:30 | Discussion and networking |
+
+</details>
 
 Please respond to your Outlook invitation by **26 November**. To receive invitations, join the community mailing list or email us.
 
@@ -43,6 +60,34 @@ Please respond to your Outlook invitation by **26 November**. To receive invitat
 [Join the mailing list](https://listserv.tudelft.nl/mailman/listinfo/ml-teaching-community){.btn .btn-outline-primary}
 :::
 ::::
+
+## Recently in the community
+
+::::: {.recent-gatherings}
+:::: {.recap-card}
+::: {.story-meta}
+1 October 2026 · Teaching & research
+:::
+
+### Three questions for ML teachers
+
+Mathematics prerequisites, threshold concepts, and instructional order: explore the questions colleagues brought to our October gathering.
+
+[Explore the studies and slides](research-innovation.qmd)
+::::
+
+:::: {.recap-card}
+::: {.story-meta}
+4 June 2026 · Sharing resources
+:::
+
+### Introducing CAIT
+
+At the internal launch, Tom Viering introduced the platform for sharing AI and machine learning teaching materials across courses.
+
+[Discover CAIT](cait.qmd)
+::::
+:::::
 
 ## Past gatherings {#event-archive}
 
@@ -107,8 +152,6 @@ Explore the community's meetings since its launch in 2023. Open a year to see th
 ::: {.source-note}
 † Slides hosted on SharePoint may require a TU Delft sign-in. Archive: [TU Delft community page](https://www.tudelft.nl/ai/onderwijs/ai-onderwijsinnovatie/machine-learning-teachers-community).
 :::
-
-![Teachers exchanging ideas at a community get-together. Photo: TU Delft community website.](assets/get-together.jpg){.community-photo fig-alt="Teachers exchanging ideas at a community gathering in the Teaching Lab"}
 
 ::: {.join-strip}
 **Have a topic to share?** Suggest a talk, a teaching question, or an experience from your course: [ml-teaching-community@tudelft.nl](mailto:ml-teaching-community@tudelft.nl).
