@@ -125,7 +125,7 @@ h2.grant-title { font-size: clamp(1.6rem, 2.7vw, 2rem); line-height: 1.3; font-w
 .team-member span { display: block; margin-top: 8px; font-size: .76rem; font-weight: 700; line-height: 1.4; }
 /* Shared prose and photo-led community stories. */
 .community-content { max-width: 800px; padding-top: 28px; border-top: 1px solid var(--line); }
-.community-content h2:first-child { margin-top: 0; }
+.community-content > section:first-child > h2 { margin-top: 0; }
 .community-content p, .community-content li { line-height: 1.8; }
 .community-content li { margin-bottom: .5rem; }
 .community-content table { font-size: .87rem; }
