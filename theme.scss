@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+$body-bg: #fbfaf7;
+$body-color: #243b3d;
+$link-color: #176b65;
+$primary: #176b65;
+$font-family-sans-serif: "Avenir Next", "Segoe UI", Arial, sans-serif;
+$headings-font-family: Georgia, "Times New Roman", serif;
+$font-size-root: 17px;
+$headings-font-weight: 400;
+$sidebar-bg: #153638;
+$sidebar-fg: #ffffff;
+$sidebar-hl: #f0d8a1;
+
+/*-- scss:rules --*/
+::selection { background: #e9d6aa; color: #153638; }

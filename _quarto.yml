@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - project-02.qmd
+    - project-03.qmd
+    - project-04.qmd
+    - project-05.qmd
+    - project-06.qmd
+  resources:
+    - assets/
+    - .nojekyll
+
+website:
+  title: "Our projects"
+  description: "Meet the people behind our projects and explore their work."
+  search: false
+  sidebar:
+    style: docked
+    background: "#153638"
+    foreground: "#ffffff"
+    border: false
+    pinned: true
+    contents:
+      - index.qmd
+      - project-02.qmd
+      - project-03.qmd
+      - project-04.qmd
+      - project-05.qmd
+      - project-06.qmd
+    footer: "Six projects.<br>People, ideas, and impact."
+  page-footer:
+    left: "Our projects"
+    right: "People, ideas, and impact."
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    css: styles.css
+    toc: false
+    title-block-banner: false
+    anchor-sections: false
+    link-external-newwindow: true
+    lang: en
+    grid:
+      sidebar-width: 270px
+      body-width: 1060px
+      margin-width: 0px
+      gutter-width: 2.5rem
+
+editor: visual
