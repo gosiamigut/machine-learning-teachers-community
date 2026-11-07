@@ -14,6 +14,39 @@ Studies and educational initiatives that connect classroom questions with eviden
 :::
 
 :::: {.community-content}
+## Practical AI in Engineering {#practical-ai-in-engineering}
+
+**A case-study-driven open repository and course**
+
+Led by **Bahareh Abdi (Abdikivanani)**, with **Gosia Migut, Tom Viering, Martin Sand, and Dario Turelli** as co-applicants, this project connects AI and machine learning methods with the decisions engineers face in practice. It received **€25,000 through TU Delft's AI-Augmented Engineering Education call in 2025**.
+
+The team is developing reusable case studies and course materials with students and professional partners. Cases span areas including healthcare, finance, and sustainability. Coding activities and structured reflection help students work with imperfect data, competing stakeholder needs, and ethical questions as part of the same engineering problem.
+
+Students practise defining problems with stakeholders, examining data quality and bias, evaluating models, and interpreting and communicating their results. The materials are being developed and tested, including pilots in the AI minor, with the aim of making them openly available for use across disciplines.
+
+[Project update from TU Delft](https://www.tudelft.nl/en/ai/education/ai-education-in-the-discipline) · [Funding and project team](https://www.microelectronics.tudelft.nl/eee/News/) · [2025 grant announcement](https://www.tudelft.nl/en/2025/delft-ai/four-new-grants-awarded-for-development-of-ai-augmented-engineering-education)
+
+::: {.recognition-panel}
+::: {.project-kicker}
+Recognition · Education Day 2026
+:::
+
+### TU Delft Education Team of the Year 2026 {#education-team-of-the-year-2026}
+
+**Practical AI in Engineering received TU Delft's Education Team of the Year award**, celebrated at Education Day on **5 November 2026**.
+
+The Teaching Academy recognised the collaboration across EEMCS, Aerospace Engineering, and Technology, Policy and Management. Its announcement highlighted the combination of technical AI learning, ethical reasoning, and authentic engineering challenges—and the team's ambition to build reusable resources that benefit education beyond a single course.
+
+<details class="recognition-team">
+<summary>The recognised team</summary>
+
+Bahareh Abdi, Martin Sand, Tom Viering, Dario Turelli, Gosia Migut, Junzi Sun, Behdad Etezadi, Oskar Lang Moesmand, Alireza Saghaeian, Thom van den Hil, and Vasko Dakov.
+
+</details>
+
+[Teaching Academy announcement on LinkedIn](https://nl.linkedin.com/company/tu-delft-teaching-academy) · [Education Day 2026](https://www.tudelft.nl/en/tu-delft-teaching-academy/events/education-day-2026/tu-delft-education-day-2026)
+:::
+
 ## The concepts that change how students see ML
 
 **Lisa Zhang, Gosia Migut, and Jesse H. Krijthe · ITiCSE 2026**

@@ -30,13 +30,46 @@ CAIT helps teachers discover and exchange educational materials. Its purpose is 
 - **Share experience.** Comments, feedback, and usage information help the community improve resources.
 - **Contribute materials.** Bring an activity, example, or teaching resource to the team and discuss how others could use it.
 
-## Developed with the community
+## Leading the initiative {#initiative-leads}
 
-Bianca Giovanardi and Tom Viering have helped develop CAIT with the student team Praxidike and colleagues across TU Delft. The June 2026 presentation acknowledged contributions from Gosia Migut, Sara Colombo, Senthil Chandrasegaran, Dave Murray-Rust, Iulia Lefter, Martin Klomp, Bianca Giovanardi, and Paige Folsom.
+**Tom Viering and Bianca Giovanardi lead CAIT**, bringing together educators and student developers to build a shared platform for teaching materials.
 
-Support has included Convergence, Open Science, and Education Fellow grants. At the internal launch on **4 June 2026**, a wider launch was envisaged for the 2026–2027 academic year. Contact the team for current access and contribution arrangements.
+```{=html}
+<ul class="initiative-leads" aria-label="CAIT initiative leads">
+<li class="initiative-person"><a href="https://tomviering.nl/"><img src="assets/tom-viering.jpg" alt="Portrait of Tom Viering" width="200" height="250" loading="lazy"><span class="person-name">Tom Viering</span></a><span class="person-role">Initiative lead</span><span class="person-affiliation">EEMCS · Intelligent Systems</span></li>
+<li class="initiative-person"><a href="https://www.tudelft.nl/en/staff/b.giovanardi/"><img src="assets/people/bianca-giovanardi.jpg" alt="Portrait of Bianca Giovanardi" width="200" height="250" loading="lazy"><span class="person-name">Bianca Giovanardi</span></a><span class="person-role">Initiative lead</span><span class="person-affiliation">Aerospace Engineering · Aerospace Structures &amp; Materials</span></li>
+</ul>
+```
 
-[View the June 2026 presentation (PDF)](https://filelist.tudelft.nl/Websections/AIDU/AI%20website%20%E2%80%93%20Education/CAIT_MLGetTogether.pdf)
+## Developed with the community {#cait-contributors}
+
+CAIT grew from the Machine Learning Teachers Community into a working group spanning faculties and institutions. The student team **Praxidike** built the first platform during TU Delft's CSE2000 Software Project course in summer 2024.
+
+Alongside Bianca and Tom, the June 2026 presentation acknowledged the following colleagues' contributions:
+
+```{=html}
+<ul class="initiative-contributors" aria-label="CAIT contributors">
+<li class="initiative-person"><a href="https://gosiamigut.github.io/"><img src="assets/gosia-migut.jpg" alt="Portrait of Gosia Migut" width="100" height="125" loading="lazy"><span class="person-name">Gosia Migut</span></a></li>
+<li class="initiative-person"><a href="https://www.tudelft.nl/en/ide/about-ide/people/colombo-s"><img src="assets/people/sara-colombo.jpg" alt="Portrait of Sara Colombo" width="100" height="125" loading="lazy"><span class="person-name">Sara Colombo</span></a></li>
+<li class="initiative-person"><a href="https://www.tudelft.nl/en/ide/about-ide/people/chandrasegaran-rsk"><img src="assets/people/senthil-chandrasegaran.jpg" alt="Portrait of Senthil Chandrasegaran" width="100" height="125" loading="lazy"><span class="person-name">Senthil Chandrasegaran</span></a></li>
+<li class="initiative-person"><a href="https://www.tudelft.nl/io/over-io/personen/murray-rust-d"><img src="assets/people/dave-murray-rust.jpg" alt="Portrait of Dave Murray-Rust" width="100" height="125" loading="lazy"><span class="person-name">Dave Murray-Rust</span></a></li>
+<li class="initiative-person"><a href="https://www.tudelft.nl/en/staff/i.lefter/"><img src="assets/people/iulia-lefter.jpg" alt="Portrait of Iulia Lefter" width="100" height="125" loading="lazy"><span class="person-name">Iulia Lefter</span></a></li>
+<li class="initiative-person"><a href="https://www.tudelft.nl/staff/m.klomp/"><img src="assets/people/martin-klomp.jpg" alt="Portrait of Martin Klomp" width="100" height="125" loading="lazy"><span class="person-name">Martin Klomp</span></a></li>
+<li class="initiative-person"><a href="https://www.tudelft.nl/open-science/about/organisation"><img src="assets/people/paige-folsom.jpg" alt="Portrait of Paige Folsom" width="100" height="125" loading="lazy"><span class="person-name">Paige Folsom</span></a></li>
+</ul>
+```
+
+::: {.source-note}
+Portraits: TU Delft and the contributors' professional websites. Select a name or photo to visit the source profile. [June 2026 presentation (PDF)](https://filelist.tudelft.nl/Websections/AIDU/AI%20website%20%E2%80%93%20Education/CAIT_MLGetTogether.pdf) · [CAIT's story](https://cait.beta.praxidike.org/about)
+:::
+
+## Support for CAIT {#cait-support}
+
+Bianca Giovanardi and Tom Viering's CAIT project received support from the **Mainstream Open Science Fund 2024–2025**. CAIT also acknowledges funding from **Convergence**. The **Education Fellowship 2026 awarded to Gosia Migut and Tom Viering** supports the next steps for the wider teaching community and the expansion of CAIT.
+
+[Open Science award](https://www.tudelft.nl/en/open-science/community/mainstream-open-science-fund-2024-2025-2) · [Education Fellowship](https://www.tudelft.nl/en/2025/eemcs/three-eemcs-professors-receive-tu-delft-education-fellowship-2026) · [Funding update on the blog](community-blog.qmd#cait-funding-update)
+
+At the internal launch on **4 June 2026**, a wider launch was envisaged for the 2026–2027 academic year. Contact the team for current access and contribution arrangements.
 
 ## Teaching materials as a shared resource
 

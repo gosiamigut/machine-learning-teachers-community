@@ -16,6 +16,33 @@ Short reads, teaching reflections, and links to stories from our community.
 :::::: {.story-list}
 ::::: {.story-card}
 :::: {.story-image}
+```{=html}
+<div class="story-portraits story-portraits-pair">
+  <img src="assets/people/bianca-giovanardi.jpg" alt="Bianca Giovanardi" loading="lazy" width="200" height="250">
+  <img src="assets/tom-viering.jpg" alt="Tom Viering" loading="lazy" width="200" height="250">
+</div>
+<div class="story-portrait-caption">CAIT initiative leads: Bianca Giovanardi and Tom Viering.</div>
+```
+::::
+:::: {.story-copy}
+::: {.story-meta}
+CAIT · Funding update
+:::
+
+## Support for open, collaborative teaching {#cait-funding-update}
+
+**Bianca Giovanardi and Tom Viering received support for CAIT through TU Delft's Mainstream Open Science Fund 2024–2025.** The funded work develops a platform where educators can share and improve teaching materials together. CAIT also acknowledges support from Convergence.
+
+::: {.editorial-note}
+**More from the team soon.** A fuller account of the grants, their impact, and the next steps for CAIT will be added when Tom and Bianca provide their update.
+:::
+
+[Open Science funding announcement](https://www.tudelft.nl/en/open-science/community/mainstream-open-science-fund-2024-2025-2) · [Meet the CAIT team](cait.qmd#initiative-leads)
+::::
+:::::
+
+::::: {.story-card}
+:::: {.story-image}
 ![Community archive photo: TU Delft.](assets/get-together.jpg){fig-alt="Teachers exchanging ideas at a community get-together; archive photograph"}
 ::::
 :::: {.story-copy}

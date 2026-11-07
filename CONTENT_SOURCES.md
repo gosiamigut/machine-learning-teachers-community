@@ -65,3 +65,23 @@ photograph, not a photograph of the October 2026 gathering. Blog metadata
 identifies event dates, authors, or source organisations where known; an unknown
 publication date is not inferred. The six project profiles, archive entries,
 and their existing links are preserved.
+
+## Research, recognition, CAIT funding and people — 7 November 2026
+
+### Practical AI in Engineering
+
+- [TU Delft project update](https://www.tudelft.nl/en/ai/education/ai-education-in-the-discipline): current case-study development, pilots, domains and educational aims.
+- [EEMCS Electrical Engineering Education news](https://www.microelectronics.tudelft.nl/eee/News/), 28 February 2025: €25,000 award, Bahareh Abdi as lead, and Gosia Migut, Tom Viering, Martin Sand and Dario Turelli as co-applicants.
+- [TU Delft grant announcement](https://www.tudelft.nl/en/2025/delft-ai/four-new-grants-awarded-for-development-of-ai-augmented-engineering-education): official project title and the AI-Augmented Engineering Education programme.
+- [Teaching Academy public LinkedIn page](https://nl.linkedin.com/company/tu-delft-teaching-academy), award announcement displayed on 7 November 2026: Practical AI in Engineering is TU Delft Education Team of the Year 2026; the selection committee recognised collaboration, technical and ethical learning, reusable resources and impact beyond a single course. The earlier nomination post names all 11 team members shown in the expandable credit list.
+- [Education Day 2026 programme](https://www.tudelft.nl/en/tu-delft-teaching-academy/events/education-day-2026/tu-delft-education-day-2026): award ceremony on 5 November 2026. This is the event date, not an inferred LinkedIn publication date.
+- The award belongs to the Practical AI in Engineering team, not to the whole ML Teacher Community. Bahareh's later Comenius project has a different formal title and is not conflated with the 2025 award.
+
+### CAIT
+
+- [Mainstream Open Science Fund 2024–2025](https://www.tudelft.nl/en/open-science/community/mainstream-open-science-fund-2024-2025-2): explicitly lists Bianca Giovanardi and Tom Viering as CAIT recipients; duration 10 months. This page uses the earlier expansion “Community Archive for Innovative Teaching”; the website retains CAIT's current name, “Community Archive for Integrated Teaching”.
+- [CAIT About](https://cait.beta.praxidike.org/about): leadership, origins, Praxidike's 2024 student development work, and acknowledgement of Convergence and Open Science funding.
+- [Education Fellowship 2026](https://www.tudelft.nl/en/2025/eemcs/three-eemcs-professors-receive-tu-delft-education-fellowship-2026): fellowship awarded to Gosia Migut and Tom Viering. It is distinguished from the grant involving Bianca.
+- The new blog card confirms the Open Science funding and general Convergence support. Exact Convergence grant name, amounts and timing, and a fuller team update remain to be supplied; no additional award particulars were invented. A short public “More from the team soon” notice marks the planned expansion.
+- Leadership portraits are larger than contributor portraits. The seven contributor names are those already acknowledged on the page; Bianca is presented once among the leads. The collective student team Praxidike remains credited without inventing individual names or photos.
+- New portraits and identity checks are documented in `assets/people/SOURCES.md`. Existing Gosia and Tom portraits retain their earlier provenance above.
