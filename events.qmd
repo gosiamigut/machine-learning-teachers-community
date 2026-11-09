@@ -1,0 +1,107 @@
+---
+title: "Events"
+description: "Our next get-together and the archive of past community gatherings."
+---
+
+```{=html}
+<h1 class="visually-hidden" id="page-title">Events</h1>
+```
+
+:::: {.event-feature}
+::: {.event-label}
+Next get-together · 1 December 2026
+:::
+
+## Teaching scientific machine learning
+
+**Alexander Heinlein**, Assistant Professor of Applied Mathematics at EEMCS, will share his experience of setting up a Scientific Machine Learning course.
+
+::: {.event-meta}
+**Tuesday 1 December · 12:30–13:30**<br>
+Teaching Lab · Room 32A.0.2 · TU Delft<br>
+All times are local to Delft.
+:::
+
+<details class="event-programme">
+<summary>View the programme</summary>
+
+| Time | Programme |
+|:--|:--|
+| 12:30–12:45 | Lunch and catch-up |
+| 12:45–13:15 | Presentation |
+| 13:15–13:30 | Discussion and networking |
+
+</details>
+
+Please respond to your Outlook invitation by **26 November**. To receive invitations, join the community mailing list or email us.
+
+::: {.action-links}
+[Event details](https://www.tudelft.nl/evenementen/2026/delft-ai/machine-learning-teachers-get-together-1-december-2026){.btn .btn-primary}
+[Join the mailing list](https://listserv.tudelft.nl/mailman/listinfo/ml-teaching-community){.btn .btn-outline-primary}
+:::
+::::
+
+## Past gatherings {#event-archive}
+
+Explore the community's meetings since its launch in 2023. Open a year to see the speakers, topics, and available materials.
+
+<details class="event-year" open>
+<summary>2026 <span>5 gatherings</span></summary>
+
+| Date | Contributors | Focus & resources |
+|:--|:--|:--|
+| 1 October | Matias Valdenegro Toro; Gosia Migut & Jesse Krijthe; Ilinca Rențea | Mathematics prerequisites; threshold concepts; instructional order<br>[Threshold concepts](https://filelist.tudelft.nl/Websections/AIDU/Website%20ML%20Teachers%20Community/Documents/lunch1Oct26_GosiaJesse.pdf) · [Instructional order](https://filelist.tudelft.nl/Websections/AIDU/Website%20ML%20Teachers%20Community/Documents/lunch1Oct26_Ilinca.pdf) |
+| 4 June | Tom Viering | CAIT internal launch<br>[Slides](https://filelist.tudelft.nl/Websections/AIDU/AI%20website%20%E2%80%93%20Education/CAIT_MLGetTogether.pdf) |
+| 23 April | Martina Vittorietti | ML for mathematicians<br>[Slides†](https://tud365.sharepoint.com/:b:/r/sites/TUDMachineLearningCommunity/Gedeelde%20documenten/General/Slides%20meetings/Slide_Vittorietti_ML.pdf?csf=1&web=1&e=HcdKyS) |
+| 26 March | Hanne Kekkonen | Statistical learning for engineers<br>[Slides†](https://tud365.sharepoint.com/:b:/s/TUDMachineLearningCommunity/IQCb6gVLm_c-RaWWMBiYq53nAbdpDt35r39yJMCvR1GZ5BA?e=5Gu0aH) |
+| 15 January | Gosia Migut & Tom Viering | Micro-grants for ML education |
+
+</details>
+
+<details class="event-year">
+<summary>2025 <span>4 gatherings</span></summary>
+
+| Date | Contributors | Focus & resources |
+|:--|:--|:--|
+| 20 November | Bahareh Abdi | Engineering AI cases<br>[Slides†](https://tud365.sharepoint.com/sites/TUDMachineLearningCommunity/Gedeelde%20documenten/Forms/AllItems.aspx?id=%2Fsites%2FTUDMachineLearningCommunity%2FGedeelde+documenten%2FGeneral%2FSlides+meetings%2F251120_Practical+AI+in+Engineering.pdf&parent=%2Fsites%2FTUDMachineLearningCommunity%2FGedeelde+documenten%2FGeneral%2FSlides+meetings) |
+| 24 September | Lisa Zhang | Novice ML difficulties |
+| 25 March | Wilfred van der Vegte | Visual analytics tools |
+| 11 February | Sander Smit | Business analytics |
+
+</details>
+
+<details class="event-year">
+<summary>2024 <span>8 gatherings</span></summary>
+
+| Date | Contributors | Focus & resources |
+|:--|:--|:--|
+| 10 December | Jifke Veenland | Medical imaging & ML |
+| 14 October | Bianca Giovanardi | Sharing teaching materials<br>[Event](https://www.tudelft.nl/evenementen/2024/delft-ai/machine-learning-teachers-get-together-a-platform-for-sharing-ai-and-machine-learning-educational-materials-for-teachers) |
+| 10 September | Bianca Giovanardi | CAIT demonstration |
+| 4 June | Gosia Migut & Bianca Giovanardi | AI Education Spring Symposium |
+| 23 April | Bilge Atasoy | Transport systems & ML |
+| 14 March | Riccardo Taormina | Civil engineering & ML |
+| 22 February | Holger Caesar | Robotics & ML |
+| 25 January | Cees Haringa | AI curricula |
+
+</details>
+
+<details class="event-year">
+<summary>2023 <span>6 gatherings</span></summary>
+
+| Date | Contributors | Focus & resources |
+|:--|:--|:--|
+| 19 December | Filippo Santoni de Sio | Critical thinking<br>[Recap](https://www.linkedin.com/posts/tudelftai_ai-machinelearning-education-activity-7143223531525345281-2c8W) |
+| 31 October | Seyran Khademi; Marcia Baptista | Architecture; maintenance modelling |
+| 22 June | Community gathering | End-of-year drinks |
+| 17 May | Sicco Verwer; Bianca Giovanardi | Peer assessment; notebook autograding<br>[Event](https://www.tudelft.nl/en/events/2023/teaching-academy/machine-learning-teachers-get-together-17-may) |
+| 3 April | Alessandro Bozzon; Jesse Krijthe | Design; computer science |
+| 16 February | Tom Viering & Gosia Migut | Community kick-off |
+
+</details>
+
+
+::: {.source-note}
+† Slides hosted on SharePoint may require a TU Delft sign-in. Archive: [TU Delft community page](https://www.tudelft.nl/ai/onderwijs/ai-onderwijsinnovatie/machine-learning-teachers-community).
+:::
+

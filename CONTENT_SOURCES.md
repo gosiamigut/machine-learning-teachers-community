@@ -13,14 +13,14 @@ Imported and checked on 6 November 2026. Page text is newly written; links lead 
 
 ## Editorial decisions
 
-- Events is the landing page. The former events.html URL redirects to index.html.
+- The site title opens the community landing page (`index.qmd`). Events has its own page (`events.qmd`) with the next gathering and full archive.
 - The dedicated December event page gives 12:30–13:30; the community landing page has a conflicting end time. Use the dedicated event page's times and programme. Review when the organiser changes the event.
 - The archive includes all 23 dated gatherings listed on the supplied community page, from February 2023 through October 2026. Short topic labels summarise longer descriptions; source links preserve access to details.
 - The study outcomes are explicitly preliminary as presented in October 2026.
 - The CAIT launch status is dated to June 2026, rather than presented as a verified current access policy.
 - Older event resources on SharePoint may require TU Delft sign-in. Email tracking parameters were removed from links.
 - Blog entries are curated summaries with original-source links, not full reposts. Event dates are not represented as publication dates.
-- TU Delft and AI Initiative are shown as sponsors at the site owner's request.
+- The shared footer shows only the combined TU Delft | AI Initiative logo, without a Sponsors label, at the site owner's request.
 
 ## Still needed
 
@@ -85,3 +85,26 @@ and their existing links are preserved.
 - The new blog card confirms the Open Science funding and general Convergence support. Exact Convergence grant name, amounts and timing, and a fuller team update remain to be supplied; no additional award particulars were invented. A short public “More from the team soon” notice marks the planned expansion.
 - Leadership portraits are larger than contributor portraits. The seven contributor names are those already acknowledged on the page; Bianca is presented once among the leads. The collective student team Praxidike remains credited without inventing individual names or photos.
 - New portraits and identity checks are documented in `assets/people/SOURCES.md`. Existing Gosia and Tom portraits retain their earlier provenance above.
+
+
+## Page organisation update — 9 November 2026
+
+At the site owner's request, the introduction, get-together photo and Join button
+moved to a dedicated community landing page. Events now begins with the next
+get-together and then shows the unchanged archive; the recent-community cards
+were removed. Internal archive links now target `events.qmd#event-archive`.
+
+Practical AI in Engineering is a brief project summary like the other Research
+& Innovation entries. Its Education Team of the Year announcement and complete
+team credits moved to the blog. The community interview text, founders' photo
+and interview PDF link moved from About us to the blog.
+
+The owner supplied these functional leads: CAIT — Tom Viering and Bianca
+Giovanardi; Events — Elena Congeduti; Research & Innovation — Gosia Migut.
+About us now displays their existing portraits and contact details in these
+groups. Wendy Jansen's existing AI Education Development contact is retained.
+No new portraits or external biographical claims were introduced.
+
+The standalone TU Delft footer mark and the Sponsors label were removed. Only
+the original combined TU Delft | AI Initiative mark remains; its source file
+is unchanged.

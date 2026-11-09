@@ -1,12 +1,13 @@
 # Machine Learning Teacher Community website
 
-A Quarto website with six sidebar sections, in order: **Events**, **CAIT**, **Research & Innovation**, **Micro-grant projects**, **Community blog**, and **About us**. Events is the landing page. The micro-grant page shows all six projects one after another, each with a lead portrait on the left and description on the right. The layout stacks on small screens.
+A Quarto website with six sidebar sections, in order: **Events**, **CAIT**, **Research & Innovation**, **Micro-grant projects**, **Community blog**, and **About us**. The site title links to a separate community landing page. The micro-grant page shows all six projects one after another, each with a lead portrait on the left and description on the right. The layout stacks on small screens.
 
 ## Edit the website
 
 | Section | File |
 | --- | --- |
-| Events (homepage) | `index.qmd` |
+| Community landing page | `index.qmd` |
+| Events | `events.qmd` |
 | CAIT | `cait.qmd` |
 | Research & Innovation | `research-innovation.qmd` |
 | All six micro-grant projects | `micro-grant-projects.qmd` |
@@ -15,9 +16,9 @@ A Quarto website with six sidebar sections, in order: **Events**, **CAIT**, **Re
 | Navigation and site settings | `_quarto.yml` |
 | Styling | `styles.css` and `theme.scss` |
 
-The community pages contain information adapted from TU Delft and public LinkedIn updates. `CONTENT_SOURCES.md` records the sources and remaining gaps. The previous `events.html` address redirects to the Events homepage.
+The community pages contain information adapted from TU Delft and public LinkedIn updates. `CONTENT_SOURCES.md` records the sources and remaining gaps. The `events.html` address now serves the Events page directly.
 
-Edit sponsors in `website.page-footer` in `_quarto.yml`; the footer appears on every page. The current sponsors are TU Delft and AI Initiative. For events, update the featured gathering and move it into the year archive after it has taken place.
+Edit the shared footer in `website.page-footer` in `_quarto.yml`; it displays only the combined TU Delft | AI Initiative logo, without a Sponsors label. For events, update the featured gathering and move it into the year archive after it has taken place.
 
 In `micro-grant-projects.qmd`, five project descriptions and their teams are filled from the supplied document. The sixth section is reserved for the remaining project. Keep the layout markers (`:::`) intact when editing. The open-book project uses a small portrait grid for its five applicants.
 
@@ -58,7 +59,8 @@ quarto render
 ## Included files
 
 - `_quarto.yml`: website configuration and six navigation links.
-- `index.qmd`: Events homepage.
+- `index.qmd`: community landing page.
+- `events.qmd`: next get-together and past gatherings.
 - `cait.qmd`, `research-innovation.qmd`, `community-blog.qmd`, and `about.qmd`: community pages.
 - `micro-grant-projects.qmd`: all six projects, in order.
 - `assets/`: project portraits, original portrait placeholders, and community photographs.
@@ -76,6 +78,15 @@ The shared footer is in `_quarto.yml`. Keep sponsor marks in `assets/brand/`
 unchanged; their official sources are recorded alongside them. Roboto Slab is
 served locally from `assets/fonts/`; retain its Apache 2.0 license if redistributing.
 
-Events remains the landing page. The sidebar keeps About us at the bottom on
+The site title links to the community landing page; Events is a separate page. The sidebar keeps About us at the bottom on
 desktop. Project jump links use the existing `#project-01` through `#project-06`
 anchors. Mobile navigation uses Quarto's built-in menu.
+
+
+### Page organisation
+
+The landing page contains the community introduction, gathering photo, and Join button.
+Events contains the next get-together and the existing year archive. The award
+announcement and “A community built around teaching” interview appear only in
+the blog. About us groups portraits by CAIT (Tom and Bianca), Events (Elena), and
+Research & Innovation (Gosia), with Wendy's AI Education Development contact retained.

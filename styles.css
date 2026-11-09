@@ -61,8 +61,8 @@ main h3 { line-height: 1.35; }
 .project-intro { color: var(--muted); font-size: 1.1rem; line-height: 1.7; max-width: 760px; margin-bottom: 30px; }
 .project-intro p { margin: 0; }
 /* Events landing page: real people and a practical invitation. */
-.events-hero { display: grid; grid-template-columns: 1fr 1.05fr; gap: 36px; align-items: center; margin-bottom: 46px; }
-.events-hero .project-intro { font-size: 1.05rem; margin-bottom: 20px; }
+.community-hero { display: grid; grid-template-columns: 1fr 1.05fr; gap: 36px; align-items: center; margin-bottom: 46px; }
+.community-hero .project-intro { font-size: 1.05rem; margin-bottom: 20px; }
 .hero-photo { min-width: 0; }
 .hero-photo .quarto-figure, .hero-photo figure, .hero-photo p { margin: 0; }
 .hero-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; }
@@ -83,11 +83,6 @@ main h3 { line-height: 1.35; }
 .action-links .btn-primary:hover { color: var(--ink); background: #fff; }
 .action-links .btn-outline-primary { color: var(--ink); background: transparent; border-color: var(--ink); }
 .action-links .btn-outline-primary:hover { color: #fff; background: var(--ink); }
-.recent-gatherings { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin: 22px 0 44px; }
-.recap-card { border: 1px solid var(--line); border-radius: 5px; padding: 24px; }
-.recap-card h3 { font-size: 1.3rem; margin: 10px 0 14px; }
-.recap-card p { font-size: .94rem; }
-.recap-card p:last-child { margin-bottom: 0; }
 .event-year { border-bottom: 1px solid var(--line); }
 .event-year summary { cursor: pointer; padding: 20px 2px; color: var(--ink); font: 500 1.25rem/1.5 "Roboto Slab", Georgia, serif; }
 .event-year summary span { font: .8rem Arial, sans-serif; color: var(--muted); margin-left: 12px; }
@@ -152,11 +147,9 @@ h2.grant-title { font-size: clamp(1.6rem, 2.7vw, 2rem); line-height: 1.3; font-w
 .nav-footer { background: #fff; padding: 34px 20px; border-top: 1px solid var(--line); }
 .nav-footer .nav-footer-center { max-width: none; width: 100%; }
 .sponsor-footer { text-align: center; }
-.sponsor-label { text-transform: uppercase; letter-spacing: .13em; font-size: .65rem; color: var(--muted); margin-bottom: 20px; }
 .sponsor-links { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 24px 46px; }
 .sponsor-links a { display: flex; align-items: center; justify-content: center; min-height: 72px; }
 .sponsor-links img { display: block; height: auto; }
-.sponsor-tu { width: 140px; }
 .sponsor-ai { width: 245px; max-width: 100%; }
 .footer-community { font-size: .7rem; color: var(--muted); margin-top: 22px; }
 @media (min-width: 992px) {
@@ -166,16 +159,15 @@ h2.grant-title { font-size: clamp(1.6rem, 2.7vw, 2rem); line-height: 1.3; font-w
   #quarto-sidebar .sidebar-item:last-child { margin-top: auto; padding-top: 28px; }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .events-hero { gap: 24px; grid-template-columns: 1fr; }
+  .community-hero { gap: 24px; grid-template-columns: 1fr; }
   .hero-photo img { aspect-ratio: 2 / 1; }
   .project-layout { grid-template-columns: 180px minmax(0, 1fr); gap: 28px; }
 }
 @media (max-width: 767px) {
   #quarto-content main { padding-top: 28px; }
   #quarto-sidebar { border-right: 0; }
-  .events-hero { grid-template-columns: 1fr; gap: 22px; margin-bottom: 30px; }
+  .community-hero { grid-template-columns: 1fr; gap: 22px; margin-bottom: 30px; }
   .project-intro { font-size: 1rem; margin-bottom: 25px; }
-  .recent-gatherings { grid-template-columns: 1fr; gap: 15px; }
   .event-feature { margin-bottom: 30px; }
   .event-year .table { font-size: .76rem; }
   .event-year td { padding-right: 7px; overflow-wrap: anywhere; }
@@ -199,9 +191,6 @@ h2.grant-title { font-size: clamp(1.6rem, 2.7vw, 2rem); line-height: 1.3; font-w
 }
 
 /* Research recognition and the people behind CAIT. */
-.recognition-panel { background: var(--pale); padding: 26px 28px; border-radius: 5px; margin: 30px 0 42px; }
-.recognition-panel h3 { font-size: 1.4rem; margin: 0 0 18px; }
-.recognition-panel p:last-child { margin-bottom: 0; }
 .recognition-team { margin: 22px 0; }
 .recognition-team summary { cursor: pointer; font-weight: 700; }
 .recognition-team p { margin-top: 14px; font-size: .9rem; }
@@ -224,9 +213,29 @@ h2.grant-title { font-size: clamp(1.6rem, 2.7vw, 2rem); line-height: 1.3; font-w
 .editorial-note { background: var(--pale); padding: 15px 18px; border-radius: 4px; margin: 20px 0; }
 .editorial-note p { font-size: .85rem; margin: 0; }
 @media (max-width: 575px) {
-  .recognition-panel { padding: 22px; }
   .initiative-leads { gap: 18px; }
   .initiative-leads .person-name { font-size: .94rem; }
   .initiative-contributors { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px 14px; }
   .initiative-contributors .person-name { font-size: .75rem; overflow-wrap: anywhere; }
+}
+
+
+/* The home page introduces the community; About groups people by activity. */
+.community-role-people { display: grid; grid-template-columns: repeat(2, minmax(0, 210px)); gap: 26px; list-style: none; padding: 0; margin: 22px 0; }
+.community-role-people li { margin: 0; }
+.community-role-people a { text-decoration: none; }
+.community-role-people a:hover span { text-decoration: underline; }
+.community-role-people img { display: block; width: 160px; max-width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 35%; border-radius: 5px; }
+.community-role-people span { display: block; font-size: .95rem; font-weight: 700; margin-top: 10px; line-height: 1.45; }
+.community-role-people .person-contact { display: inline-block; margin-top: 4px; font-size: .82rem; text-decoration: underline; }
+#community-team h3 { font-size: 1.3rem; margin: 34px 0 12px; }
+.story-image .founders-story { aspect-ratio: auto; height: auto; }
+.story-date-badge { padding: 26px 18px; background: var(--pale); border-radius: 5px; text-align: center; }
+.story-date-badge time, .story-date-badge span, .story-date-badge strong { display: block; }
+.story-date-badge time > span { font-weight: 700; font-size: .9rem; }
+.story-date-badge strong { font: 500 2.8rem/1.4 "Roboto Slab", Georgia, serif; }
+.story-date-badge > span { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; margin-top: 8px; }
+@media (max-width: 575px) {
+  .community-role-people { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  .story-date-badge { max-width: 205px; }
 }

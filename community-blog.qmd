@@ -17,6 +17,53 @@ Short reads, teaching reflections, and links to stories from our community.
 ::::: {.story-card}
 :::: {.story-image}
 ```{=html}
+<div class="story-date-badge"><time datetime="2026-11-05"><span>5 November</span><strong>2026</strong></time><span>Education Day</span></div>
+```
+::::
+:::: {.story-copy}
+::: {.story-meta}
+5 November 2026 · Community recognition
+:::
+
+## TU Delft Education Team of the Year 2026 {#education-team-of-the-year-2026}
+
+**Practical AI in Engineering received TU Delft's Education Team of the Year award**, celebrated at Education Day on **5 November 2026**.
+
+The Teaching Academy recognised the collaboration across EEMCS, Aerospace Engineering, and Technology, Policy and Management. Its announcement highlighted the combination of technical AI learning, ethical reasoning, and authentic engineering challenges—and the team's ambition to build reusable resources that benefit education beyond a single course.
+
+<details class="recognition-team">
+<summary>The recognised team</summary>
+
+Bahareh Abdi, Martin Sand, Tom Viering, Dario Turelli, Gosia Migut, Junzi Sun, Behdad Etezadi, Oskar Lang Moesmand, Alireza Saghaeian, Thom van den Hil, and Vasko Dakov.
+
+</details>
+
+[Teaching Academy announcement on LinkedIn](https://nl.linkedin.com/company/tu-delft-teaching-academy) · [Education Day 2026](https://www.tudelft.nl/en/tu-delft-teaching-academy/events/education-day-2026/tu-delft-education-day-2026)
+::::
+:::::
+
+::::: {.story-card}
+:::: {.story-image}
+![Gosia Migut and Tom Viering. Photo: TU Delft.](assets/founders.jpg){.founders-story fig-alt="Community founders Gosia Migut and Tom Viering"}
+::::
+:::: {.story-copy}
+::: {.story-meta}
+TU Delft · Community interview
+:::
+
+## A community built around teaching {#a-community-built-around-teaching}
+
+Founded in 2023 by **Gosia Migut and Tom Viering**, the Machine Learning Teachers Community brings together colleagues who teach ML and AI at TU Delft. Teachers from every faculty are welcome.
+
+We exchange classroom experiences, discuss educational questions, and connect colleagues working on related challenges. A shared interest in open teaching resources has also led to collaboration on [CAIT](cait.qmd), helping teachers build on existing materials across courses.
+
+[Read the interview about machine learning education (PDF)](https://filelist.tudelft.nl/Websections/AIDU/Documents/Article%20Machine%20Learning%20Teachers.pdf)
+::::
+:::::
+
+::::: {.story-card}
+:::: {.story-image}
+```{=html}
 <div class="story-portraits story-portraits-pair">
   <img src="assets/people/bianca-giovanardi.jpg" alt="Bianca Giovanardi" loading="lazy" width="200" height="250">
   <img src="assets/tom-viering.jpg" alt="Tom Viering" loading="lazy" width="200" height="250">
